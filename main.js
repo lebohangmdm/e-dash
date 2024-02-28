@@ -1,4 +1,6 @@
-const navLinks = document.getElementById("mobile-nav-links");
+const header = document.getElementById("header");
 const navBtn = document.getElementById("nav-btn");
-const menuBtn = document.getElementById("menu");
-const closeBtn = document.getElementById("close");
+
+navBtn.addEventListener("click", function (e) {
+  header.classList.toggle("nav-open");
+});

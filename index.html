@@ -16,7 +16,7 @@
     <title>e-dash</title>
   </head>
   <body>
-    <header class="py-2 relative">
+    <header id="header" class="py-2 relative">
       <div class="container px-4 pr-6 mx-auto max-w-6xl sm:px-8">
         <nav class="flex items-center justify-between">
           <a href="/" class="text-brownish-0 font-bold text-xl cursor-pointer">
@@ -37,17 +37,17 @@
             <button id="nav-btn">
               <ion-icon
                 id="menu"
-                class="w-8 h-8 bg-transparent"
+                class="w-8 h-8 bg-transparent show"
                 name="menu-outline"
               ></ion-icon>
               <ion-icon
                 id="close"
-                class="w-8 h-8 bg-transparent hidden"
+                class="w-8 h-8 bg-transparent hide"
                 name="close-outline"
               ></ion-icon>
             </button>
           </div>
-          <div id="mobile-nav-links" class="hidden">
+          <div id="mobile-nav-links" class="hidden menu">
             <a href="#" class="nav-link">About Us</a>
             <a href="#" class="nav-link">Testimonials</a>
             <a href="#" class="nav-link">Product</a>
