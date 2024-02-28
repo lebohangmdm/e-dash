@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="/style.css" />
+    <title>e-dash</title>
+  </head>
+  <body>
+    <header class="py-2 relative">
+      <div class="container px-4 pr-6 mx-auto max-w-6xl sm:px-8">
+        <nav class="flex items-center justify-between">
+          <a href="/" class="text-brownish-0 font-bold text-xl cursor-pointer">
+            <img src="/edash.png" alt="" class="h-20 object-cover" />
+          </a>
+          <div class="hidden md:flex md:items-center md:space-x-8">
+            <a href="#" class="nav-link">About Us</a>
+            <a href="#" class="nav-link">Testimonials</a>
+            <a href="#" class="nav-link">Product</a>
+            <a href="#" class="nav-link">Subscribe</a>
+          </div>
+          <div class="hidden md:flex md:items-center md:space-x-4">
+            <a href="#" class="btn">Login</a>
+            <a href="#" class="btn-lighter">Sign Up</a>
+          </div>
+
+          <div class="md:hidden">
+            <button id="nav-btn">
+              <ion-icon
+                id="menu"
+                class="w-8 h-8 bg-transparent"
+                name="menu-outline"
+              ></ion-icon>
+              <ion-icon
+                id="close"
+                class="w-8 h-8 bg-transparent hidden"
+                name="close-outline"
+              ></ion-icon>
+            </button>
+          </div>
+          <div id="mobile-nav-links" class="hidden">
+            <a href="#" class="nav-link">About Us</a>
+            <a href="#" class="nav-link">Testimonials</a>
+            <a href="#" class="nav-link">Product</a>
+            <a href="#" class="nav-link">Subscribe</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
