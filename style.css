@@ -32,7 +32,7 @@ body {
     @apply text-brownish-0 font-bold hover:text-green-default transition-all duration-150;
   }
   .nav-open .menu {
-    @apply absolute flex flex-col items-center space-y-4 px-6 py-8 top-[70px] rounded-l-xl right-0 w-1/3 bg-lighter-brown block;
+    @apply absolute flex flex-col  space-y-4 pl-4 py-6 top-[70px]  right-0 w-1/3 bg-lighter-brown-shade-10 shadow-lg  block;
   }
 
   .nav-open .hide {

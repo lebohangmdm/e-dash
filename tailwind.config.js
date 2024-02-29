@@ -13,6 +13,8 @@ export default {
         "light-brownish": "#f9f9f8",
         "light-brown": "#c6bfb7",
         "lighter-brown": "#d1ccc5",
+        "lighter-brown-shade-10": "#fafaf9",
+        darkgreenish: "#2e2e27",
       },
       fontFamily: {
         roboto: ["Roboto"],

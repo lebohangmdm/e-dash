@@ -16,8 +16,8 @@
     <title>e-dash</title>
   </head>
   <body>
-    <header id="header" class="py-2 relative">
-      <div class="container px-4 pr-6 mx-auto max-w-6xl sm:px-8">
+    <header id="header" class="py-2 relative mb-4 lg:mb-12">
+      <div class="container px-4 pr-6 mx-auto max-w-7xl sm:px-8">
         <nav class="flex items-center justify-between">
           <a href="/" class="text-brownish-0 font-bold text-xl cursor-pointer">
             <img src="/edash.png" alt="" class="h-20 object-cover" />
@@ -48,14 +48,64 @@
             </button>
           </div>
           <div id="mobile-nav-links" class="hidden menu">
-            <a href="#" class="nav-link">About Us</a>
-            <a href="#" class="nav-link">Testimonials</a>
-            <a href="#" class="nav-link">Product</a>
-            <a href="#" class="nav-link">Subscribe</a>
+            <a
+              href="#"
+              class="text-base text-brownish-0 font-semibold hover:bg-light-brown py-2 pl-8 rounded-l-full"
+              >About Us</a
+            >
+            <a
+              href="#"
+              class="text-base text-brownish-0 font-semibold hover:bg-light-brown py-2 pl-8 rounded-l-full"
+              >Testimonials</a
+            >
+            <a
+              href="#"
+              class="text-base text-brownish-0 font-semibold hover:bg-light-brown py-2 pl-8 rounded-l-full"
+              >Product</a
+            >
+            <a
+              href="#"
+              class="text-base text-brownish-0 font-semibold hover:bg-light-brown py-2 pl-8 rounded-l-full"
+              >Subscribe</a
+            >
           </div>
         </nav>
       </div>
     </header>
+
+    <section class="section">
+      <div class="container px-4 mx-auto max-w-6xl sm:px-8">
+        <div
+          class="flex flex-col-reverse space-y-8 lg:space-y-0 lg:flex-row lg:items-center md:space-x-4"
+        >
+          <div class="flex flex-col space-y-5 lg:space-y-6">
+            <h1
+              class="text-gray-900 text-4xl font-semibold text-center md:text-5xl lg:text-6xl lg:text-left"
+            >
+              All of your company's financial accounts in one view
+            </h1>
+            <p
+              class="text-darkgreenish text-xl max-w-lg mx-auto text-center md:text-2xl md:max-w-lg lg:mx-0 lg:text-left"
+            >
+              Connect and control all of your global business accounts from one
+              dashboard. Automatically earn on your idle cash.
+            </p>
+            <div class="flex justify-center lg:justify-start">
+              <a
+                href="#"
+                class="btn font-medium text-lg py-3 px-6 tracking-widest"
+                >Try it now</a
+              >
+            </div>
+          </div>
+
+          <div class="flex items-center justify-cent">
+            <img src="/hero.png" alt="dashboard" />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
