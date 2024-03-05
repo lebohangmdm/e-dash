@@ -1,3 +1,5 @@
+"use strict";
+
 const header = document.getElementById("header");
 const navBtn = document.getElementById("nav-btn");
 
